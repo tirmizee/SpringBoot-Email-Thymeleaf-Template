@@ -20,6 +20,8 @@ auto-configuration Thymeleaf template engine
         <artifactId>spring-boot-starter-thymeleaf</artifactId>
       </dependency>
           
+- #### Configuration properties
+
 ### Example
 
 - #### Send simple mail
