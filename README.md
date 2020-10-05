@@ -5,7 +5,9 @@
 
 - #### Send simple mail
 
-![Capture](https://user-images.githubusercontent.com/15135199/95040174-1a242100-06fd-11eb-85e4-82b02bdd3f13.JPG)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/15135199/95040174-1a242100-06fd-11eb-85e4-82b02bdd3f13.JPG" width="800">
+</p>
 
 - #### Send mail with attachments
 
