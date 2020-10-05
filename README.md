@@ -22,7 +22,7 @@ Send a mail with attachment using Spring boot email and Thymeleaf template engin
   <img src="https://user-images.githubusercontent.com/15135199/95040353-9a4a8680-06fd-11eb-9e94-4eee5d1e63c7.JPG" width="900">
 </p>
 
-- #### Send mail template for list
+- #### Send mail template with list
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/15135199/95041935-5a39d280-0702-11eb-866a-a06ebccaa34e.JPG" width="900">
