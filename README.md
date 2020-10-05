@@ -1,5 +1,6 @@
 # SpringBoot-Email-Thymeleaf-Template
 
+Send a mail with attachment using Spring boot email and Thymeleaf template engine.
 
 ### Example
 
