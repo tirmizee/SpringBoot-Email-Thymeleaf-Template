@@ -2,6 +2,10 @@
 
 Send a mail with attachment using Spring boot email and Thymeleaf template engine.
 
+### How to implement
+
+- #### Add dependencies
+
 ### Example
 
 - #### Send simple mail
