@@ -1,7 +1,7 @@
 # SpringBoot-Email-Thymeleaf-Template
 
 
-## Usecase
+## Example
 
 - ### Send simple mail
 
