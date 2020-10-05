@@ -14,6 +14,7 @@ auto-configuration Java Mail and Spring Framework's email sending support
       </dependency>
 
 auto-configuration Thymeleaf template engine
+
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-thymeleaf</artifactId>
