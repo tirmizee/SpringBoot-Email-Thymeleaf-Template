@@ -6,13 +6,18 @@ Send a mail with attachment using Spring boot email and Thymeleaf template engin
 
 - #### Add dependencies
 
-     Starter for using Java Mail and Spring Framework's email sending support
+Starter for using Java Mail and Spring Framework's email sending support
 
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-mail</artifactId>
       </dependency>
 
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-thymeleaf</artifactId>
+      </dependency>
+          
 ### Example
 
 - #### Send simple mail
