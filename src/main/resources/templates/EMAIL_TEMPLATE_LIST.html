@@ -1,0 +1,60 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Table</title>
+    <style>
+    *{ font-family: 'Quicksand', sans-serif;}
+
+	.content-table{
+	  border-collapse: collapse;
+	  margin: 25px 0;
+	  font-size: 0.9em;
+	  min-width: 400px;
+	  border-radius: 5px 5px 0 0;
+	  overflow: hidden;
+	  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)
+	}
+	
+	.content-table thead tr{
+	  background-color: #009879;
+	  color: white;
+	  text-align: left;
+	  font-weight: bold;
+	}
+	.content-table th, .content-table td{
+	  padding: 12px 15px;
+	}
+	.content-table tbody tr{
+	  border-bottom: 1px solid #dddddd;
+	}
+	.content-table tbody tr:nth-of-type(even){
+	  background-color: #f3f3f3;
+	}
+	.content-table tbody tr:last-of-type{
+	  border-bottom: 2px solid #009879;
+	}
+    </style>
+  </head>
+  <body>
+    <h1>TABLE #1</h1>
+    <table class="content-table">
+      <thead>
+        <tr>
+          <th>Order</th>
+          <th>No</th>
+          <th>Name</th>
+          <th>Tel</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr th:each="customer, stats : ${customers}">
+          <td th:text="${stats.index + 1}"/>
+          <td th:text="${customer.cusNo}"/>
+          <td th:text="${customer.cusName}"/>
+          <td th:text="${customer.cusTel}"/>
+          <td th:text="${customer.cusAddress}"/>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
