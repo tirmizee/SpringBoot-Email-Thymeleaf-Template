@@ -22,6 +22,24 @@ auto-configuration Thymeleaf template engine
           
 - #### Configuration properties
 
+      ## EMAIL CONFIGURATION
+      spring.mail.default-encoding=UTF-8
+      spring.mail.host=smtp.gmail.com
+      spring.mail.username=tirmizee123456789@gmail.com
+      spring.mail.password=rafmkkwndkgyziak
+      spring.mail.port=587
+      spring.mail.protocol=smtp
+      spring.mail.test-connection=false
+      spring.mail.properties.mail.debug=true
+      spring.mail.properties.mail.smtp.auth=true
+      spring.mail.properties.mail.smtp.starttls.enable=true
+
+      ## THYMELEAF CONFIGURATION
+      spring.thymeleaf.cache=false
+      spring.thymeleaf.prefix=classpath:/templates/
+      spring.thymeleaf.suffix=.html
+      spring.thymeleaf.encoding=UTF-8
+
 ### Example
 
 - #### Send simple mail
